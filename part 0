@@ -1,0 +1,11 @@
+title part 0
+
+note left of User:Thinks of something to write
+Browser->Server: click to open https://studies.cs.helsinki.fi/exampleapp/spa
+Server->Browser: shows https://studies.cs.helsinki.fi/exampleapp/spa content
+User->Browser: inputs something in text field
+User->Browser: Presses Save button
+Browser->Server: receives something from text field after pressing Save button
+Server->Browser: Reloads and displays text in Browser with others
+Browser->User: Sees text appear in browser
+note right of Server: store text with other applicants
